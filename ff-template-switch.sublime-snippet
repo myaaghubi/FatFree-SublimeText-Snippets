@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<switch expr="{{ @${1:expr} }}">
+    <case value="{{ @${2:value} }}" break="{{ ${3:true|false} }}">
+        ${4}
+    </case>
+    ${5}
+    <default>
+        ${6}
+    </default>
+</switch>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ffswitch</tabTrigger>
+	<scope>text.html</scope>
+	<description>Fat-Free switch - template</description>
+</snippet>

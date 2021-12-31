@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$${1:auth} = new \Auth(string \$${2:storage}, [${3}]);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ffauth</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>Fat-Free Auth Init</description>
+</snippet>

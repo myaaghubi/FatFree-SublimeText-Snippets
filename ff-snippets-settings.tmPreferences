@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+<dict>
+    <key>name</key>
+    <string>ff-snippets settings</string>
+    <key>scope</key>
+    <string>text.html.basic</string>
+    <key>settings</key>
+    <dict>
+        <key>shellVariables</key>
+        <array>
+            <dict>
+                <key>name</key>
+                <string>FFSNIPPET_FATFREE_DEFAULT_TAG</string>
+                <key>value</key>
+                <string>f3</string>
+            </dict>
+
+            <dict>
+                <key>name</key>
+                <string>PHP_OPENING_BRACE</string>
+                <key>value</key>
+                <string>{</string>
+            </dict>
+
+            <!--
+                Comment the following section to be opening brace be formatted on a new line:
+            -->
+
+        </array>
+    </dict>
+</dict>
+</plist>

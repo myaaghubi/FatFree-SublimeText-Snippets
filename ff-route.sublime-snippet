@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+\$${1:${FFSNIPPET_FATFREE_DEFAULT_TAG}}->route('${2:GET} /${3}', ${4:
+    function(\$${5:${FFSNIPPET_FATFREE_DEFAULT_TAG}}, \$${6:params}) ${PHP_OPENING_BRACE:
+	\{}
+        $0
+    \}}
+);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ffroute</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>Fat-Free Route Function</description>
+</snippet>

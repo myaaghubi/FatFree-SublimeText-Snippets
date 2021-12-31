@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$${1:${FFSNIPPET_FATFREE_DEFAULT_TAG}}->dump(\$${2:expr});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ffdump</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>Fat-Free Dump Expression (with syntax highlighting)</description>
+</snippet>

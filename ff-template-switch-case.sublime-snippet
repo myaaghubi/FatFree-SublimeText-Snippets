@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<case value="{{ @${1:value} }}" break="{{ ${2:true|false} }}">
+    ${3}
+</case>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ffswitchcase</tabTrigger>
+	<scope>text.html</scope>
+	<description>Fat-Free switch case - template</description>
+</snippet>

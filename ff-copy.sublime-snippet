@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$${1:${FFSNIPPET_FATFREE_DEFAULT_TAG}}->copy(\$${2:src}, \$${3:dst})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ffcopy</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>Fat-Free Copy</description>
+</snippet>

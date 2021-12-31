@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<repeat group="@${1:array}" value="@${2:item}">
+	$0
+</repeat>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ffrepeat</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+	<description>Fat-Free repeat - template</description>
+</snippet>

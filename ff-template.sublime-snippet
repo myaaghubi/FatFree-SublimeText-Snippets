@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+echo Template::instance()->render('${1:page}.html');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ffrender</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>Fatfree Template->render</description>
+</snippet>

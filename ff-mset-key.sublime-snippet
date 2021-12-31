@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+'${1:key}' => \$${2:value},
+$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ffmsetkey</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>embedding.php text.html.basic meta.embedded.block.php source.php meta.function-call.php meta.group.php meta.array.php</scope>
+	<description>Fat-Free MSet key => value</description>
+</snippet>

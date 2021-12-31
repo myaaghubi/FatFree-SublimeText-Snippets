@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$${1:db} = new \DB\SQL('${2:mysql}:host=${3:localhost};port=${4:3306};dbname=${5:mydb}','${6:username}','${7:password}');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ffnewsql</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>Fat-Free new \DB\SQL(...)</description>
+</snippet>

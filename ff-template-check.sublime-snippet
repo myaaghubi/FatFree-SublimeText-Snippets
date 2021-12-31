@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<check if="{{ isset(@${1:var})}}">
+	<true>
+		${2}
+	</true>
+</check>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ffcheck</tabTrigger>
+	<scope>text.html</scope>
+	<description>Fat-Free check - template</description>
+</snippet>

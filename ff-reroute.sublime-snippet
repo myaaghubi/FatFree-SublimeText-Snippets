@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$${1:${FFSNIPPET_FATFREE_DEFAULT_TAG}}->reroute('/${2:route}');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ffreroute</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>Fat-Free Reroute</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$${1:db} = new \DB\SQL('sqlite:data/${2:sqlite.db}');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ffnewsqlite</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>Fat-Free new \DB\SQL(...) sqlite</description>
+</snippet>

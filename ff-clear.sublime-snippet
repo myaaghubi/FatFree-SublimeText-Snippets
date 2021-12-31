@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$${1:${FFSNIPPET_FATFREE_DEFAULT_TAG}}->clear('${2:value}');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ffclear</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>Fat-Free Clear Key</description>
+</snippet>
