@@ -17,7 +17,7 @@
             </dict>
 
             <!--
-                Comment the following section to be opening brace be formatted on a new line:
+                Comment the following section if you like to opening brace be formatted on a new line:
             -->
             <dict>
                 <key>name</key>

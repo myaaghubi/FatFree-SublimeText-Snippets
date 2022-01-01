@@ -8,6 +8,6 @@
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ffcheck</tabTrigger>
-	<scope>text.html</scope>
+	<scope>text.html.basic - embedding.php text.html.basic meta.embedded.block.php source.php</scope>
 	<description>Fat-Free check - template</description>
 </snippet>

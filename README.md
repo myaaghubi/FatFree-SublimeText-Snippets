@@ -5,7 +5,7 @@ Fat-Free Framework snippets for Sublime Text 4.
 
 ## INSTALLATION
 
-Download and unzip the latest source from GitHub into your Sublime Text "Packages\User" directory and name it to **FFSnippets**.
+Download and unzip the latest source from GitHub into your Sublime Text "Packages\User" directory and rename it to **FFSnippets**.
 
 `Menu > Preferences > Browse Packages... > User`
 
@@ -79,7 +79,7 @@ Download and unzip the latest source from GitHub into your Sublime Text "Package
 
 ## CONFIGURATION
 
-Modify `ff-snippets-settings.tmPreferences` in your snippets (`Menu > Preferences > Browse Packages... > User > FatFree-Snippets-dir`):
+Modify `ff-snippets-settings.tmPreferences` in your snippets (`Menu > Preferences > Browse Packages... > User > FFSnippets`):
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -101,7 +101,7 @@ Modify `ff-snippets-settings.tmPreferences` in your snippets (`Menu > Preference
             </dict>
 
             <!--
-                Comment the following section to be opening brace be formatted on a new line:
+                Comment the following section if you like to opening brace be formatted on a new line:
             -->
             <dict>
                 <key>name</key>
