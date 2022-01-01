@@ -1,9 +1,8 @@
 <snippet>
 	<content><![CDATA[
-\$${1:${FFSNIPPET_FATFREE_DEFAULT_TAG}}->route(
-	[
-        '${2:GET} /${3}',
-    ], ${4:
+\$${1:${FFSNIPPET_FATFREE_DEFAULT_TAG}}->route([
+	]
+	'${2:GET} /${3}', ${4:
     function(\$${1}, \$params) ${FFPHP_OPENING_BRACE:
 	\{}
         $0
@@ -14,5 +13,5 @@
 	<tabTrigger>ffroute</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.php</scope>
-	<description>Fat-Free Route Multi</description>
+	<description>Fat-Free Route</description>
 </snippet>

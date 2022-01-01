@@ -16,17 +16,15 @@
                 <string>f3</string>
             </dict>
 
-            <dict>
-                <key>name</key>
-                <string>PHP_OPENING_BRACE</string>
-                <key>value</key>
-                <string>{</string>
-            </dict>
-
             <!--
                 Comment the following section to be opening brace be formatted on a new line:
             -->
-
+            <dict>
+                <key>name</key>
+                <string>FFPHP_OPENING_BRACE</string>
+                <key>value</key>
+                <string>{</string>
+            </dict>
         </array>
     </dict>
 </dict>
