@@ -26,15 +26,15 @@ Download and unzip the latest source from GitHub into your Sublime Text "Package
 | `ff@` | Fat-Free: {{ @var }} |
 | `ffvar` | Fat-Free: {{ @var }} |
 | `ffbaseurl` | Fat-Free: href="{{@BASE . '/' .@UI}}" |
-| `ffcheck` | Fat-Free: &lt;?check ?&gt;|
-| `ffinclude` | Fat-Free: &lt;?include ?&gt; |
+| `ffcheck` | Fat-Free: &lt;check &gt;|
+| `ffinclude` | Fat-Free: &lt;include &gt; |
 | `ffisset` | Fat-Free: {{ isset(@var)?: }} |
-| `ffloop` | Fat-Free: &lt;?loop ?&gt; |
+| `ffloop` | Fat-Free: &lt;loop &gt; |
 | `ffprintr` | Fat-Free: {{ print_r(@value) }} |
-| `ffrepeat` | Fat-Free: &lt;?repeat ?&gt; |
-| `ffset` | Fat-Free: &lt;?set > |
-| `ffswitch` | Fat-Free: &lt;?switch ?&gt; |
-| `ffswitchcase` | Fat-Free: &lt;?case ?&gt; |
+| `ffrepeat` | Fat-Free: &lt;repeat &gt; |
+| `ffset` | Fat-Free: &lt;set > |
+| `ffswitch` | Fat-Free: &lt;switch &gt; |
+| `ffswitchcase` | Fat-Free: &lt;case &gt; |
 | PHP |
 | `ffbase` | Fat-Free: = \Base::instance() |
 | `ffbase` | Fat-Free: = require('lib/base.php') |
