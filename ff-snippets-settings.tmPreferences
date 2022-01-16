@@ -17,14 +17,14 @@
             </dict>
 
             <!--
-                Comment the following section if you like to opening brace be formatted on a new line:
+                Uncomment the following section if you like to opening brace not be formatted on a new line:
             -->
-            <dict>
+<!--             <dict>
                 <key>name</key>
                 <string>FFPHP_OPENING_BRACE</string>
                 <key>value</key>
                 <string>{</string>
-            </dict>
+            </dict> -->
         </array>
     </dict>
 </dict>
